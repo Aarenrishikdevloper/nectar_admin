@@ -1,16 +1,15 @@
-# admin
+# Flutter Grocery App Admin Panel
+This repository contains the admin panel for managing the Flutter Grocery App. The admin panel is built with Flutter and allows administrators to manage products, view and process orders, handle user accounts, and review reports or analytics.
 
-A new Flutter project.
+# Features
++ Product Management: Add, update, or delete grocery products, including details like price, images, descriptions, and stock levels.
++ Order Management: View and manage user orders, update order status, and track delivery information.
++ Authentication: Secure login for admin users only.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Tech Stack
++ Flutter for the frontend (Dart language)
++ Node.js with Express for backend APIs (provided separately)
++ RESTful API for server communication
++ Getx for state management 
++ JWT for admin authentication
