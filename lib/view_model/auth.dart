@@ -30,7 +30,7 @@ class AuthViewModel extends GetxController {
         Get.snackbar("Registration Sucessfull", " Account Created Sucessfully");
         String token = res.body;
         await utils.storetoken(token);
-        Get.offAll(() => const Home());
+        Get.offAll(() => const maintabview());
       } else {
         Get.snackbar("Error", "Something Went Wrong");
       }
@@ -57,7 +57,7 @@ class AuthViewModel extends GetxController {
         Get.snackbar("Login Sucessfull", "login Sucessfully");
         String token = res.body;
         await utils.storetoken(token);
-        Get.offAll(() => const Home());
+        Get.offAll(() => const maintabview());
       } else {
         Get.snackbar("Error", "Something Went Wrong");
       }
